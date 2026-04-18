@@ -1,0 +1,6 @@
+@ordersync_payment_HostAddress = http://localhost:5084
+
+GET {{ordersync_payment_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
