@@ -2,7 +2,7 @@
 
 Sistema de gestión de órdenes con arquitectura de microservicios.
 
-## 🚀 Tecnologías
+## Tecnologías
 
 * Node.js + Express + TypeScript
 * .NET (ASP.NET Core)
@@ -10,14 +10,14 @@ Sistema de gestión de órdenes con arquitectura de microservicios.
 * REST APIs
 * Webhooks
 
-## 🧩 Arquitectura
+## Arquitectura
 
 * API principal (Node.js)
 * Microservicio de pagos (.NET)
 * Comunicación síncrona (HTTP)
 * Comunicación asíncrona (Webhooks)
 
-## 🔄 Flujo
+## Flujo
 
 1. Usuario se autentica (JWT)
 2. Crea una orden
@@ -26,7 +26,7 @@ Sistema de gestión de órdenes con arquitectura de microservicios.
 5. .NET notifica a Node vía webhook
 6. Node actualiza el estado de la orden
 
-## 🧪 Cómo ejecutar
+## Cómo ejecutar
 
 ### API Node
 
@@ -43,14 +43,14 @@ cd ordersync-payment
 dotnet run
 ```
 
-## 📌 Endpoints principales
+## Endpoints principales
 
 * POST /auth/register
 * POST /auth/login
 * POST /orders
 * POST /webhook/payment
 
-## 💡 Objetivo
+## Objetivo
 
 Proyecto enfocado en demostrar integración entre microservicios, manejo de autenticación y comunicación entre servicios.
 
